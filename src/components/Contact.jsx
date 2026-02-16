@@ -93,7 +93,7 @@ const Contact = () => {
       .catch((error) => {
         setLoading(false);
         console.error(error);
-        setConfirmation("Something went wrong. Please try again. :/");
+        setConfirmation("Something went wrong. Please try again.");
       });
   };
 
